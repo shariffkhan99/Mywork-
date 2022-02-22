@@ -1,0 +1,11 @@
+name : Git Hub Actions
+on :
+  pull_requests:
+  push:
+    branches:
+     -master 
+     -develop
+jobs:
+test:
+  name :runnings unit test 
+  runs-on:windows-latest
